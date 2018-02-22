@@ -1,0 +1,27 @@
+public class BefreundeteZahlen {
+    public static void main (String[] args){
+        Out.println("Befreundete Zahlen");
+        Out.println("=========================");
+        Out.print("Zahl 1: ");
+        int zahl1 = In.readInt();
+        Out.print("\nZahl 2: ");
+        int zahl2 = In.readInt();
+        Out.print("\nDie Zahlen " + zahl1 + " und " + zahl2 + " sind ");
+        if (isAmicable(zahl1, zahl2)){
+            Out.println("befreundet");
+        }
+        else Out.println("nicht befreundet");
+        Out.println("End!");
+    }
+    static boolean isAmicable (int num1, int num2){
+        return ((1+sumDividors(n1) == n2) && (1+sumDividors(n2) == n1));
+    }
+    static int sumDividors(int num){
+        int sum = 0
+        for (int i = 2; i <= (num/2); i++){
+            if (num % i == 0){
+                sum+= i;
+            }
+        }
+        return sum;
+    }
