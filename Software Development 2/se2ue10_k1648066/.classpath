@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="UE10_Vorgabe/src"/>
+	<classpathentry kind="output" path="UE10_Vorgabe/out/production/UE10_Patterns_Factory_Decorator_Singleton_Alien_Catch_Game"/>
+</classpath>
